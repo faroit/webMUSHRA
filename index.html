@@ -32,6 +32,9 @@ will be prosecuted to the maximum extent possible under law.
     <link type="text/css" href="lib/external/noUiSlider.8.0.2/nouislider.min.css" rel="stylesheet" />
     <link type="text/css" href="lib/external/noUiSlider.8.0.2/nouislider.pips.css" rel="stylesheet" />
 
+	<!-- Insert this line above script imports  -->
+	<script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+
     <script src="lib/external/jquery/jquery-2.1.1.min.js"></script>
     <script src="lib/external/jquery.mobile/jquery.mobile-1.4.4.js"></script>
     <script src="lib/external/jquery.mobile/plugins/jQuery-Mobile-Progress-Bar-with-Percentage/src/js/tolito-1.0.1.js"></script>
@@ -103,14 +106,14 @@ will be prosecuted to the maximum extent possible under law.
 
     <!-- import config -->
     <script src="lib/external/yaml/yaml.min.js"></script>
+    <script>if (window.module) module = window.module;</script>
 
     <link rel="stylesheet" href="design/style.css">
   </head>
 
   <body data-theme="a">
 
-
-    <div class="header" id="header"></div>
+    <!-- <div class="header" id="header"></div> -->
 
 	<div id="container">
 

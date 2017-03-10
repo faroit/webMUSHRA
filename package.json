@@ -1,10 +1,9 @@
 {
-
   "name": "webMUSHRA",
   "version": "1.3.0",
   "description": "Web Audio API based Listening Experiment Framework",
   "author": "International Audio Laboratories Erlangen",
-  "main": "Gruntfile.js",
+  "main": "main.js",
   "directories": {
     "test": "test"
   },
@@ -16,6 +15,7 @@
     "MUSHRA"
   ],
   "devDependencies": {
+    "electron": "^1.6.2",
     "grunt": "^1.0.1",
     "grunt-contrib-compress": "^1.4.1",
     "grunt-contrib-concat": "^1.0.1",
@@ -27,5 +27,8 @@
     "grunt-processhtml": "^0.4.1",
     "jsdoc": "^3.4.3"
   },
-  "license": "webMUSHRA"
+  "license": "webMUSHRA",
+  "dependencies": {
+    "electron": "^1.6.2"
+  }
 }
