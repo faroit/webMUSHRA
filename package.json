@@ -27,8 +27,8 @@
     "grunt-processhtml": "^0.4.1",
     "jsdoc": "^3.4.3"
   },
-  "license": "webMUSHRA",
   "dependencies": {
     "electron": "^1.6.2"
-  }
+  },
+  "license": "SEE LICENSE IN LICENSE.txt"
 }
