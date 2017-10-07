@@ -9,6 +9,8 @@
   },
   "scripts": {
     "test": "grunt test",
+    "build": "electron-packager . --platform=all --out=builds",
+    "build-zip": "electron-zip-packager . --platform=all --out=builds",
     "start": ""
   },
   "keywords": [
@@ -27,7 +29,9 @@
     "jsdoc": "^3.4.3"
   },
   "dependencies": {
-    "electron": "^1.6.2"
+    "electron": "^1.6.2",
+    "electron-packager": "^8.6.0",
+    "electron-zip-packager": "^4.0.2"
   },
   "license": "SEE LICENSE IN LICENSE.txt"
 }
